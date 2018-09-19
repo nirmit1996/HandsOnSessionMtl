@@ -17,19 +17,19 @@
 </head>
 <body>
 
-	<springForm:form method="POST" action="">
+	<springForm:form method="POST" action="saveUser" commandName="user">
 		<table>
 			<tr>
-				<td>Name:</td>
-				<td><springForm:input path="username" /></td>
-				<td><springForm:errors path="username" cssClass="error" /></td>
-			</tr>
-			<tr>
-				<td>Email:</td>
-				<td><springForm:input path="password" /></td>
-				<td><springForm:errors path="password" cssClass="error" /></td>
-			</tr>
-			<tr>
+                <td>Name:</td>
+                <td><springForm:input path="username" /></td>
+                <td><springForm:errors path="username" cssClass="error" /></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><springForm:input path="password" /></td>
+                <td><springForm:errors path="password" cssClass="error" /></td>
+            </tr>
+            <tr>
 				<td colspan="3"><input type="submit" value="Login"></td>
 			</tr>
 		</table>
