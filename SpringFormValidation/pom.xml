@@ -190,7 +190,7 @@
 					<warFile>target/spring-1.0.0-BUILD-SNAPSHOT.war</warFile>
 					<path>/spring</path>
 					<update>true</update>
-					<port>8080</port>
+					<port>9090</port>
 				</configuration>
 			</plugin>
 
